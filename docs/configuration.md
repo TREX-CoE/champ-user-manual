@@ -77,11 +77,11 @@ See [the Code documentation]({{ site.baseurl }}{% link docs/ui-components/code.m
 ```yaml
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+  "CHAMP on GitHub":
+    - "//github.com/filippi-claudia/champ"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
 ```
 
 ## Heading anchor links

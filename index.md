@@ -1,24 +1,51 @@
 ---
 layout: default
-title: Home
+title: CHAMP Home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Cornell-Holland Ab-initio Materials Package"
 permalink: /
 ---
 
-# Focus on writing good documentation
-{: .fs-9 }
+# Cornell-Holland Ab-initio Materials Package
+{: .fs-7 .mb-4 .mr-2}
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
-{: .fs-6 .fw-300 }
+The Cornell-Holland Ab-initio Materials Package (CHAMP) is a quantum Monte Carlo suite of programs for electronic structure calculations of atomic and molecular systems. The code is a sister code of the homonymous program originally developed by Cyrus Umrigar
+and Claudia Filippi of which it retains the accelerated Metropolis method and the efficient
+diffusion Monte Carlo algorithms.
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View it on GitHub][Just the Docs repo]{: .btn .fs-5 .mb-4 .mb-md-0 }
+The European branch of the code is currently developed by Claudia Filippi and Saverio Moroni,
+with significant contributions by Claudio Amovilli and other collaborators.
+
+{: .fs-5 .fw-300 }
+
+[Get the code from GitHub][CHAMP repo]{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---
+<!-- # Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc} -->
+
+
+CHAMP has three basic capabilities:
+
+* Metropolis or variational Monte Carlo (VMC)
+* Diffusion Monte Carlo (DMC)
+* Optimization of many-body wave functions by energy minimization (VMC) for ground and excited states
+
+Noteworthy features of CHAMP are:
+
+* Efficient wave function optimization also in a state-average fashion for multiple states of the same symmetry (VMC)
+* Efficient computation of analytical interatomic forces (VMC)
+* Compact formulation for a fast evaluation of multi-determinant expansions and their derivatives (VMC and DMC)
+* Multiscale VMC and DMC calculations in classical point charges (MM), polarizable continuum model (PCM), and polarizable force fields (MMpol)
+
+
+
 
 {: .warning }
-> This website documents the features of the current `main` branch of the Just the Docs theme. See [the CHANGELOG]({{ site.baseurl }}{% link CHANGELOG.md %}) for a list of releases, new features, and bug fixes. 
+> This website documents the features of the current `main` branch of the Just the Docs theme. See [the CHANGELOG]({{ site.baseurl }}{% link CHANGELOG.md %}) for a list of releases, new features, and bug fixes.
 
 Just the Docs is a theme for generating static websites with [Jekyll]. You can write source files for your web pages using [Markdown], the [Liquid] templating language, and HTML.[^1] Jekyll builds your site by converting all files that have [front matter] to HTML. Your [Jekyll configuration] file determines which theme to use, and sets general parameters for your site, such as the URL of its home page.
 
@@ -49,16 +76,11 @@ See the theme [README][Just the Docs README] for how to use the theme as a gem w
 
 ## About the project
 
-Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](http://patrickmarsceill.com).
+CHAMP &copy; 2022-{{ "now" | date: "%Y" }} by [Prof. Claudia Filippi](https://www.utwente.nl/en/tnw/ccp/people/academic-staff/filippi/).
 
 ### License
 
-Just the Docs is distributed by an [MIT license](https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt).
-
-### Contributing
-
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/just-the-docs/just-the-docs#contributing).
+CHAMP is distributed by an [MIT license](https://github.com/filippi-claudia/champ/tree/main/LICENSE.txt).
 
 #### Thank you to the contributors of Just the Docs!
 
@@ -70,11 +92,20 @@ email, or any other method with the owners of this repository before making a ch
 {% endfor %}
 </ul>
 
-### Code of Conduct
 
-Just the Docs is committed to fostering a welcoming community.
 
-[View our Code of Conduct](https://github.com/just-the-docs/just-the-docs/tree/main/CODE_OF_CONDUCT.md) on our GitHub repository.
+### Source code usage and collaboration
+
+{: .warning }
+
+You should neither obtain this program from any other source nor should you distribute it or any portion thereof to any person, including people in the same research group.
+It is expected that users of the programs will do so in collaboration with one of the principal authors. This serves to ensure both that the programs are used correctly and that the principal authors get adequate scientific credit for the time invested in developing the programs.
+
+### Usual disclaimer
+
+{: .note }
+
+The authors make no claims about the correctness of the program suite and people who use it do so at their own risk.
 
 ----
 
@@ -88,12 +119,10 @@ Just the Docs is committed to fostering a welcoming community.
 [Front matter]: https://jekyllrb.com/docs/front-matter/
 [Jekyll configuration]: https://jekyllrb.com/docs/configuration/
 [source file for this page]: https://github.com/just-the-docs/just-the-docs/blob/main/index.md
-[Just the Docs Template]: https://just-the-docs.github.io/just-the-docs-template/
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[Just the Docs repo]: https://github.com/just-the-docs/just-the-docs
+[CHAMP]: https://trex-coe.github.io/champ-user-manual/
+[CHAMP repo]: https://github.com/filippi-claudia/champ
 [Just the Docs README]: https://github.com/just-the-docs/just-the-docs/blob/main/README.md
 [GitHub Pages]: https://pages.github.com/
 [Template README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
 [GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
 [customize]: {{ site.baseurl }}{% link docs/customization.md %}
-[use the template]: https://github.com/just-the-docs/just-the-docs-template/generate
