@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: 'CHAMP'
 description: 'Cornell-Holland Ab-initio Materials Package'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://champ-user-manual.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/champ-user-manual" # the subpath of your site, e.g. /blog
+url: "https://trex-coe.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 
