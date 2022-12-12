@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: 'CHAMP'
 description: 'Cornell-Holland Ab-initio Materials Package'
-baseurl: "/manual" # the subpath of your site, e.g. /blog
-url: "https://just-the-docs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://champ-user-manual.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 
@@ -44,7 +44,7 @@ exclude:
    - README.md
 
 # Set a path/url to a logo that will be displayed instead of the title
-# logo: "/assets/images/just-the-docs.png"
+logo: "/assets/images/just-the-docs.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
