@@ -6,6 +6,7 @@ description: "Cornell-Holland Ab-initio Materials Package"
 permalink: /
 ---
 
+
 # Cornell-Holland Ab-initio Materials Package
 {: .fs-7 .mb-4 .mr-2}
 
@@ -21,11 +22,6 @@ with significant contributions by Claudio Amovilli and other collaborators.
 [Get the code from GitHub][CHAMP repo]{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---
-<!-- # Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc} -->
 
 
 CHAMP has three basic capabilities:
