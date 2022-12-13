@@ -9,6 +9,20 @@ parent: Installation
 
 Ubuntu 22.04 onwards:
 
+## Using Intel oneAPI compilers
+
+Setup the build:
+```
+cmake -H. -Bbuild -DCMAKE_Fortran_COMPILER=mpiifort -DENABLE_TREXIO=yes
+```
+
+To run the code with Intel Compilers and MPI:
+```bash
+mpirun -np 24  champ/bin/vmc.mov1 -i input.inp -o output.out -e error
+```
+
+## Using GNU compilers
+
 Install the required packages:
 ```bash
 sudo apt install gfortran openmpi-bin libopenmpi-dev gawk libblacs-mpi-dev liblapack-dev

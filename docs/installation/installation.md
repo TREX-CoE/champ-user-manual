@@ -41,3 +41,13 @@ Clean and build:
 cmake --build build --clean-first
 ```
 
+To specify non-standard path of HDF5 library:
+```bash
+-DHDF5_LIBRARIES=/path/to/lib/libhdf5.so -DHDF5_INCLUDE_DIRS=/path/to/include
+```
+
+To specify non-standard path of TREXIO library:
+```bash
+-DTREXIO_LIBRARY=/path/to/lib/libtrexio.so -DTREXIO_INCLUDE_DIR=/path/to/include
+```
+
