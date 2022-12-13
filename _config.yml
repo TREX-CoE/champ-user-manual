@@ -102,6 +102,10 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 nav_external_links:
   - title: 'CHAMP on GitHub'
     url: 'https://github.com/filippi-claudia/champ'
+  - title: 'TREXIO on GitHub'
+    url: 'https://github.com/TREX-CoE/trexio'
+  - title: 'QMCkl on GitHub'
+    url: 'https://github.com/TREX-CoE/qmckl'
 
 # Footer content
 # appears at the bottom of every page's main content
