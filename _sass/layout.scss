@@ -13,7 +13,7 @@
     height: 100%;
     flex-direction: column;
     border-right: $border $border-color;
-    align-items: flex-end;
+    align-items: center;
   }
 
   @include mq(lg) {
@@ -132,7 +132,7 @@
     height: 100%;
     background-image: url($logo);
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: center;
     background-size: contain;
   }
 }
