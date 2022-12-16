@@ -3,6 +3,12 @@ layout: default
 title: Pseudopotentials
 nav_order: 3
 parent: Input files
+authors:
+    - Ravindra Shinde
+tags:
+    - CHAMP
+    - ECP
+    - pseudopotential
 ---
 
 # ECP / Pseudopotential files

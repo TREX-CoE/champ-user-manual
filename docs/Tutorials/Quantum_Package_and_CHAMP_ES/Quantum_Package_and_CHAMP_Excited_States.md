@@ -6,6 +6,16 @@ has_children: true
 parent: Tutorials
 permalink: /docs/Tutorials/Quantum_Package_and_CHAMP_ES
 mathjax: true
+authors:
+    - Ravindra Shinde
+    - Claudia Filippi
+    - Anthony Scemama
+tags:
+    - CHAMP
+    - tutorial
+    - CIPSI
+    - excited state
+    - QP
 ---
 
 # Quantum Package and CHAMP : Excited States Calculation

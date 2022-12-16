@@ -3,6 +3,13 @@ layout: default
 title: Determinants / CSFs
 nav_order: 7
 parent: Input files
+authors:
+    - Ravindra Shinde
+tags:
+    - CHAMP
+    - determinant
+    - csf
+    - csfmap
 ---
 
 ## determinants and/or CSF file

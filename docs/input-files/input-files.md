@@ -4,6 +4,12 @@ title: Input files
 nav_order: 4
 has_children: true
 permalink: /docs/input-files
+authors:
+    - Ravindra Shinde
+tags:
+    - CHAMP
+    - setup
+    - input files
 ---
 
 # Preparing the input files

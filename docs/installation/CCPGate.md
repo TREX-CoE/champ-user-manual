@@ -3,6 +3,12 @@ layout: default
 title: CCPGate
 nav_order: 2
 parent: Installation
+authors:
+    - Ravindra Shinde
+tags:
+    - CHAMP
+    - installation
+    - ccpgate
 ---
 
 # Installation on **CCPGate** (ccpgate.tnw.utwente.nl) Cluster

@@ -3,6 +3,11 @@ layout: default
 title: MO Eigenvalues
 nav_order: 9
 parent: Input files
+authors:
+    - Ravindra Shinde
+tags:
+    - CHAMP
+    - eigenvalues
 ---
 
 # Molecular orbital eigenvalues file [Optional]

@@ -1,2 +1,23 @@
-<p class="text-small"> <h6>Documentation last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}</h6></p>
+<p class="text-small", align="center">
+    {% assign authorCount = page.authors | size %}
+    {% if authorCount == 0 %}
 
+    {% elsif authorCount == 1 %}
+        Documentation author </br>
+        {{ page.authors | first }}
+    {% else %}
+        Documentation authors </br>
+        {% for author in page.authors %}
+            {% if forloop.first %}
+                {{ author }}
+            {% elsif forloop.last %}
+                and {{ author }}
+            {% else %}
+                , {{ author }}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+</p>
+
+
+<p class="text-small"> <h6>Documentation last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}</h6></p>

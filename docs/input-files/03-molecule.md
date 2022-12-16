@@ -3,6 +3,11 @@ layout: default
 title: Molecular Coordinates
 nav_order: 2
 parent: Input files
+authors:
+    - Ravindra Shinde
+tags:
+    - CHAMP
+    - geometry
 ---
 
 # Molecular coordinates

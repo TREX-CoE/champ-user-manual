@@ -3,6 +3,11 @@ layout: default
 title: Molecular Orbitals
 nav_order: 6
 parent: Input files
+authors:
+    - Ravindra Shinde
+tags:
+    - CHAMP
+    - orbitals
 ---
 
 # Molecular Orbitals file

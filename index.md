@@ -4,6 +4,12 @@ title: CHAMP Home
 nav_order: 1
 description: "Cornell-Holland Ab-initio Materials Package"
 permalink: /
+authors:
+    - Claudia Filippi
+    - Ravindra Shinde
+tags:
+    - CHAMP
+    - Quantum Monte Carlo
 ---
 
 
@@ -74,19 +80,5 @@ The authors make no claims about the correctness of the program suite and people
 
 ----
 
-[^1]: The [source file for this page] uses all three markup languages.
-
-[^2]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Jekyll]: https://jekyllrb.com
-[Markdown]: https://daringfireball.net/projects/markdown/
-[Liquid]: https://github.com/Shopify/liquid/wiki
-[Front matter]: https://jekyllrb.com/docs/front-matter/
-[Jekyll configuration]: https://jekyllrb.com/docs/configuration/
-[source file for this page]: https://github.com/just-the-docs/just-the-docs/blob/main/index.md
 [CHAMP]: https://trex-coe.github.io/champ-user-manual/
 [CHAMP repo]: https://github.com/filippi-claudia/champ
-[Just the Docs README]: https://github.com/just-the-docs/just-the-docs/blob/main/README.md
-[GitHub Pages]: https://pages.github.com/
-[Template README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/

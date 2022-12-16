@@ -4,6 +4,10 @@ title: Dependencies
 nav_order: 2
 has_children: true
 permalink: /docs/dependencies
+authors:
+    - Ravindra Shinde
+tags:
+    - CHAMP
 ---
 
 # CHAMP Structure and Dependencies

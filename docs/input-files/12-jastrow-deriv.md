@@ -3,6 +3,11 @@ layout: default
 title: Jastrow Derivatives
 nav_order: 11
 parent: Input files
+authors:
+    - Ravindra Shinde
+tags:
+    - CHAMP
+    - jastrow derivative
 ---
 
 # Jastrow derivatives file

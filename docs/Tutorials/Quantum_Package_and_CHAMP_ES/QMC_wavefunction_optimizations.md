@@ -5,6 +5,16 @@ nav_order: 4
 grand_parent: Tutorials
 parent: '02. QP and CHAMP : Excited State Calculation'
 mathjax: true
+authors:
+    - Ravindra Shinde
+    - Claudia Filippi
+    - Anthony Scemama
+tags:
+    - CHAMP
+    - tutorial
+    - CIPSI
+    - excited state
+    - QP
 ---
 
 # QMC wave function optimizations

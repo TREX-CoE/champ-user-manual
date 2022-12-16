@@ -5,6 +5,15 @@ nav_order: 5
 grand_parent: Tutorials
 parent: '01. QP and CHAMP : Ground State Calculation'
 mathjax: true
+authors:
+    - Ravindra Shinde
+    - Claudia Filippi
+    - Anthony Scemama
+tags:
+    - CHAMP
+    - tutorial
+    - CIPSI
+    - QP
 ---
 
 # QMC runs : Check that the setup is OK

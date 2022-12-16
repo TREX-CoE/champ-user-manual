@@ -3,6 +3,12 @@ layout: default
 title: Snellius
 nav_order: 3
 parent: Installation
+authors:
+    - Ravindra Shinde
+tags:
+    - CHAMP
+    - installation
+    - snellius
 ---
 
 # Installation on **Snellius** (snellius.surf.nl) Supercomputer

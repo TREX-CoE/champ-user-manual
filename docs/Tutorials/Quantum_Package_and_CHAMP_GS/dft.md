@@ -4,6 +4,16 @@ title: DFT Calculation
 nav_order: 4
 grand_parent: Tutorials
 parent: '01. QP and CHAMP : Ground State Calculation'
+authors:
+    - Ravindra Shinde
+    - Claudia Filippi
+    - Anthony Scemama
+tags:
+    - CHAMP
+    - tutorial
+    - CIPSI
+    - ground state
+    - QP
 ---
 
 # DFT calculation

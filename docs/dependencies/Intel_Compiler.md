@@ -3,6 +3,12 @@ layout: default
 title: Intel Compilers oneAPI
 parent: Dependencies
 nav_order: 2
+authors:
+    - Ravindra Shinde
+tags:
+    - CHAMP
+    - Intel
+    - oneAPI
 ---
 
 

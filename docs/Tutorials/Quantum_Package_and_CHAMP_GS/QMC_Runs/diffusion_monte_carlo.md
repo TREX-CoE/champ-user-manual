@@ -5,6 +5,17 @@ nav_order: 7
 grand_parent: Tutorials
 parent: '01. QP and CHAMP : Ground State Calculation'
 mathjax: true
+authors:
+    - Ravindra Shinde
+    - Claudia Filippi
+    - Anthony Scemama
+tags:
+    - CHAMP
+    - tutorial
+    - CIPSI
+    - ground state
+    - DMC
+    - QP
 ---
 
 # Diffusion Monte Carlo

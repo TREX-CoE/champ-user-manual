@@ -3,6 +3,11 @@ layout: default
 title: Using TREXIO as input
 nav_order: 1
 parent: Input files
+authors:
+    - Ravindra Shinde
+tags:
+    - CHAMP
+    - TREXIO
 ---
 
 # Using a single trexio file as input

@@ -3,6 +3,11 @@ layout: default
 title: QMCkl Library
 parent: Dependencies
 nav_order: 4
+authors:
+    - Ravindra Shinde
+tags:
+    - CHAMP
+    - QMCKL
 ---
 
 

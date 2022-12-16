@@ -4,6 +4,16 @@ title: CIPSI 2-state calculations
 nav_order: 2
 grand_parent: Tutorials
 parent: '02. QP and CHAMP : Excited State Calculation'
+authors:
+    - Ravindra Shinde
+    - Claudia Filippi
+    - Anthony Scemama
+tags:
+    - CHAMP
+    - tutorial
+    - CIPSI
+    - excited state
+    - QP
 ---
 
 # CIPSI 2-state calculations

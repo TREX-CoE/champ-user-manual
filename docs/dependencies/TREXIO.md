@@ -3,6 +3,11 @@ layout: default
 title: TREXIO Library
 parent: Dependencies
 nav_order: 3
+authors:
+    - Ravindra Shinde
+tags:
+    - CHAMP
+    - TREXIO
 ---
 
 

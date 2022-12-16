@@ -3,6 +3,11 @@ layout: default
 title: CMake
 parent: Dependencies
 nav_order: 1
+authors:
+    - Ravindra Shinde
+tags:
+    - CHAMP
+    - CMake
 ---
 
 

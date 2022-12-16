@@ -3,6 +3,12 @@ layout: default
 title: Basis pointers
 nav_order: 5
 parent: Input files
+authors:
+    - Ravindra Shinde
+tags:
+    - CHAMP
+    - basis info
+    - basis pointers
 ---
 
 # Basis pointers (formerly bfinfo) files

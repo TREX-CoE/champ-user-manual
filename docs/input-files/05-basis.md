@@ -3,6 +3,11 @@ layout: default
 title: Basis on the grid
 nav_order: 4
 parent: Input files
+authors:
+    - Ravindra Shinde
+tags:
+    - CHAMP
+    - basis
 ---
 
 # Basis set (Basis on the radial grid) files
