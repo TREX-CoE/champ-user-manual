@@ -3,7 +3,7 @@ layout: default
 title: QMC runs (c) Diffusion Monte Carlo
 nav_order: 7
 grand_parent: Tutorials
-parent: 01. Quantum Package and CHAMP
+parent: '01. QP and CHAMP : Ground State Calculation'
 mathjax: true
 ---
 

@@ -3,7 +3,7 @@ layout: default
 title: QMC runs (b) Introduce and optimize Jastrow
 nav_order: 6
 grand_parent: Tutorials
-parent: 01. Quantum Package and CHAMP
+parent: '01. QP and CHAMP : Ground State Calculation'
 mathjax: true
 ---
 

@@ -3,7 +3,7 @@ layout: default
 title: DFT Calculation
 nav_order: 4
 grand_parent: Tutorials
-parent: 01. Quantum Package and CHAMP
+parent: '01. QP and CHAMP : Ground State Calculation'
 ---
 
 # DFT calculation

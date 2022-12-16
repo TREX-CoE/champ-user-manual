@@ -3,7 +3,7 @@ layout: default
 title: QMC runs (a) Check setup
 nav_order: 5
 grand_parent: Tutorials
-parent: 01. Quantum Package and CHAMP
+parent: '01. QP and CHAMP : Ground State Calculation'
 mathjax: true
 ---
 
@@ -24,10 +24,10 @@ These commands return the energy of the wavefunction contained in the
 EZFIO database. These values will be useful for checking that the QMC
 setup is OK. You should obtain the energies:
 
-| MO           | Total Energy      |
-|:-------------|:------------------|
-| HF           | -16.9503842       |
-| DFT          | -16.9465884       |
+| Molecular orbitals type | Total Energy |
+|:-------------:|:-----------------:|
+| HF            | -16.9503842       |
+| DFT           | -16.9465884       |
 
 
 We will now convert the TREXIO files into input files suitable for

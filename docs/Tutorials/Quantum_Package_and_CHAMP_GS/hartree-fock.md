@@ -3,7 +3,7 @@ layout: default
 title: Hartree-Fock calculation
 nav_order: 3
 grand_parent: Tutorials
-parent: 01. Quantum Package and CHAMP
+parent: '01. QP and CHAMP : Ground State Calculation'
 ---
 
 # Hartree-Fock calculation

@@ -3,7 +3,7 @@ layout: default
 title: Basis Sets and Pseudopotentials
 nav_order: 1
 grand_parent: Tutorials
-parent: 01. Quantum Package and CHAMP
+parent: '01. QP and CHAMP : Ground State Calculation'
 ---
 
 # Basis Sets and Pseudopotentials

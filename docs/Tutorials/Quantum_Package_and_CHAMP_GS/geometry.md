@@ -3,7 +3,7 @@ layout: default
 title: Geometry
 nav_order: 2
 grand_parent: Tutorials
-parent: 01. Quantum Package and CHAMP
+parent: '01. QP and CHAMP : Ground State Calculation'
 ---
 
 # Geometry

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 01. Quantum Package and CHAMP
+title: '01. QP and CHAMP : Ground State Calculation'
 nav_order: 1
 has_children: true
 parent: Tutorials
-permalink: /docs/Tutorials/Quantum_Package_and_CHAMP
+permalink: /docs/Tutorials/Quantum_Package_and_CHAMP_GS
 ---
 
 # Quantum Package and CHAMP
