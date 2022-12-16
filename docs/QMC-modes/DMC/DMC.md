@@ -11,7 +11,6 @@ tags:
     - CHAMP
     - QMC
     - DMC
-
 ---
 
 # Diffusion Monte Carlo (DMC)
