@@ -4,6 +4,7 @@ title: QMC runs (a) Check setup
 nav_order: 5
 grand_parent: Tutorials
 parent: 01. Quantum Package and CHAMP
+mathjax: true
 ---
 
 # QMC runs : Check that the setup is OK
@@ -108,7 +109,7 @@ jastrow_parameter   1
 end
 ```
 
-This files implies that there is no Jastrow factor $\exp(J)=1$.
+This files implies that there is no Jastrow factor $$\exp(J)=1$$.
 
 Create the submission script as presented in [](), and submit the job. You should obtain the
 Hartree-Fock energy.
@@ -118,3 +119,4 @@ orbitals in directory `H2O_DFT`.
 
 The energies obtained with VMC without the Jastrow factor should be the
 same as those computed by QP at the beginning of this section.
+

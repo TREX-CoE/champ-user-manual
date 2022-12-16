@@ -169,7 +169,11 @@ compress_html:
   comments: all
   endings: all
   startings: []
-  blanklines: false
+  blank_lines: true
   profile: false
   # ignore:
   #   envs: all
+
+mathjax:
+  source: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML
+  config: 'MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "AMS" } } })'
