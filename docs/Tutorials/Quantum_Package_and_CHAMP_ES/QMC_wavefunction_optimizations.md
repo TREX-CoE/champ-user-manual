@@ -21,8 +21,7 @@ tags:
 
 In this section, we will optimize a Jastrow factor for each state, and
 we will the re-optimize the CI coefficients in the presence of the
-Jastrow. The setup of the CHAMP files is similar to what we have done in
-[section 4]().
+Jastrow. The setup of the CHAMP files is similar to what we have done in the [Setup]({{ site.baseurl }}{% link docs/Tutorials/Quantum_Package_and_CHAMP_GS/basis.md %}#basis-sets-and-pseudopotentials)
 
 {: .warning}
 Here, we have 12 electrons, 6 up and 6 down.
@@ -34,7 +33,7 @@ Create a new directory, and copy the `COH2_GS.trexio` TREXIO file inside
 it. Convert the TREXIO file into CHAMP files:
 
 ```bash
-python3 /lustre/home/filippi/Tutorial-QMC-School/trex2champ.py \
+python3 /path/champ/tools/trex-tools/trex2champ.py \
                         --trex          "COH2_GS.trexio" \
                         --motype        "Canonical" \
                         --backend       "HDF5" \
