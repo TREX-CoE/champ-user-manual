@@ -129,7 +129,7 @@ here to keep the calculations short. If you are setting `optorb=1`, load
 also the symmetry file.
 >
 >```python
->load champ_v2_COH2_GS_symmetry.sym
+>load symmetry champ_v2_COH2_GS_symmetry.sym
 >```
 
 
