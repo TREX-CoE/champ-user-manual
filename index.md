@@ -67,12 +67,13 @@ CHAMP is distributed by an [GPl-3.0 license](https://github.com/filippi-claudia/
 
 ### Source code usage and collaboration
 
-[Download for free from GitHub][CHAMP repo]{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
-{: .success }
+[Download for free from GitHub][CHAMP repo]{: .btn .btn-green .mr-4}
+
+{: .note }
 
 The source code of CHAMP is available for free on GitHub. Developers and contributors are welcome to use and contribute back to the code.
-If you have used the code for your publications, please cite this source. 
+If you have used the code for your publications, please cite this source.
 
 ### Usual disclaimer
 
