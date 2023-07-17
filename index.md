@@ -21,7 +21,13 @@ and Claudia Filippi of which it retains the accelerated Metropolis method and th
 diffusion Monte Carlo algorithms.
 
 The European branch of the code is currently developed by Claudia Filippi and Saverio Moroni,
-with significant contributions by Claudio Amovilli and other collaborators.
+with significant contributions by Ravindra Shinde, Nicolas Renaud, Victor Azizi, Edgar Landinez, and Stuart Shepard.
+
+
+<a href = "https://github.com/filippi-claudia/champ/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=filippi-claudia/champ"/>
+</a>
+
 
 {: .fs-5 .fw-300 }
 
