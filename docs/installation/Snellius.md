@@ -20,13 +20,9 @@ To compile the code, first load the required modules:
 ```bash
 module purge
 module load 2022
-module load git
 module load intel/2022a
-module load intel-compilers/2022.1.0
 module load CMake/3.23.1-GCCcore-11.3.0
-module load iimpi/2022a
 module load HDF5/1.12.2-iimpi-2022a
-module load imkl/2022.1.0
 ```
 
 then set-up the build:
@@ -64,11 +60,7 @@ where `job.sh` is a SLURM job script. Here are some sample scripts:
 module purge
 module load 2022
 module load intel/2022a
-module load intel-compilers/2022.1.0
-module load CMake/3.23.1-GCCcore-11.3.0
-module load iimpi/2022a
 module load HDF5/1.12.2-iimpi-2022a
-module load imkl/2022.1.0
 #
 export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi2.so
 cd $PWD
@@ -92,11 +84,7 @@ srun champ/bin/vmc.mov1 -i vmc.inp -o vmc.out -e error
 module purge
 module load 2022
 module load intel/2022a
-module load intel-compilers/2022.1.0
-module load CMake/3.23.1-GCCcore-11.3.0
-module load iimpi/2022a
 module load HDF5/1.12.2-iimpi-2022a
-module load imkl/2022.1.0
 #
 export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi2.so
 cd $PWD
