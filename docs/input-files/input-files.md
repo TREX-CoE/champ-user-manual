@@ -47,7 +47,7 @@ A typical input file looks like:
     pool         'pool/'
     pseudopot    BFD
     basis        BFD-T
-    mode         vmc
+    mode         vmc_one_mpi
 %endmodule
 
 load molecule        $pool/champ_v3_butadiene.xyz
